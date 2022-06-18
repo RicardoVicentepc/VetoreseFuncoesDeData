@@ -1,0 +1,104 @@
+body {
+  background-image: url('../gif/dark.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  p{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(253, 106, 106);
+    border-left-style: double;
+
+    /*Texto em 3D*/
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 60px;
+    font-weight: 700;
+    color: #536780fd;
+    text-shadow: 1px 1px 1px #394a5ffd,
+        1px 2px 1px #394a5ffd,
+        1px 3px 1px #394a5ffd,
+        1px 4px 1px #394a5ffd,
+        1px 5px 1px #394a5ffd,
+        1px 6px 1px #394a5ffd,
+        1px 7px 1px #394a5ffd,
+        1px 8px 1px #394a5ffd,
+        1px 9px 1px #394a5ffd,
+        1px 10px 1px #394a5ffd,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+  }
+  p2{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(253, 106, 106);
+    border-left-style: double;
+
+    /*Texto em 3D*/
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: 600;
+    color: #536780fd;
+    text-shadow: 1px 1px 1px #394a5ffd,
+        1px 2px 1px #394a5ffd,
+        1px 3px 1px #394a5ffd,
+        1px 4px 1px #394a5ffd,
+        1px 5px 1px #394a5ffd,
+        1px 6px 1px #394a5ffd,
+        1px 7px 1px #394a5ffd,
+        1px 8px 1px #394a5ffd,
+        1px 9px 1px #394a5ffd,
+        1px 10px 1px #394a5ffd,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+  }
+  p1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(253, 106, 106);
+    border-left-style: double;
+
+    /*Texto em 3D*/
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0f93a5af;
+    text-shadow: 1px 1px 1px #00e1ffa4,
+        1px 2px 1px #00e1ffa4,
+        1px 3px 1px #00e1ffa4,
+  
+    1px 10px 10px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+  }
+
+  .btn{
+    position: relative;
+    left: 5%;
+    transform: translateX(-25%);
+    background: #536780fd;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .text{
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 15px;
+    background: #536780fd;
+    color: #536780fd;
+    transform: translateY(-6px);
+
+  }
+  .btn:active .text{
+    transform: translate(-2px);
+  }
+  .centralizar{
+    text-align: center;
+  }
